@@ -160,11 +160,11 @@ html, body {
     .container__about__text__apresentation {
         width: 100vw;
         height: 40vh;
-        padding: 0 2rem;
+        padding: 2rem 0;
     }
     .container__about__text__apresentation h1 {
         font-size: 1.4rem;
-    }
+    } 
     .container__about__text__apresentation p {
         width: 90vw;
         font-size: 0.7rem;
