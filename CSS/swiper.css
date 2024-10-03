@@ -60,6 +60,7 @@
 }
 
 .container__services__text__button {
+
 }
 
 .container__services__text__button a {
@@ -73,6 +74,7 @@
   padding: 0.6rem;
   border: 1px solid var(--font-color-secondary);
   margin-top: 6em;
+  text-align: center;
 }
 
 .container__services__text__button a:hover {
@@ -157,7 +159,7 @@
 }
 
 .swiper-two .swiper-slide h1 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-family: var(--font-primary);
   font-weight: 100;
 }
@@ -211,14 +213,14 @@
 
 @media screen and (max-width: 730px) {
   .swiper-two {
-    height: 50vh;
+    height: 60vh;
   }
   .swiper-two .swiper-slide img {
     width: 100px;
     height: 100px;
   }
   .swiper-two .swiper-slide h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .swiper-two .swiper-slide p {
     font-size: 0.8rem;
