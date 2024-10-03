@@ -1,0 +1,229 @@
+.swiper {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.swiper h1 {
+  font-size: 1.8rem;
+  font-family: var(--font-primary);
+  font-weight: 100;
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.swiper-slide img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid var(--font-color-secondary);
+  padding: 0.3rem;
+}
+
+.swiper-slide h1 {
+  font-size: 1.4rem;
+  font-family: var(--font-primary);
+  font-weight: 100;
+}
+
+.swiper-slide p {
+  font-size: 1rem;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+}
+
+.swiper-slide a {
+  font-size: 0.9rem;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  text-decoration: none;
+  color: var(--font-color-secondary);
+  padding: 0.6rem;
+  border: 1px solid var(--font-color-secondary);
+}
+
+.swiper-slide a:hover {
+  transition: 400ms;
+  background-color: var(--bg-tertiary);
+  color: var(--font-color-primary);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--font-color-secondary);
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--font-color-secondary);
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 730px) {
+  .swiper {
+    height: 40vh;
+  }
+  .swiper-slide img {
+    width: 100px;
+    height: 100px;
+  }
+  .swiper-slide h1 {
+    font-size: 1.2rem;
+  }
+  .swiper-slide p {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .swiper-slide a {
+    font-size: 0.8rem;
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    text-decoration: none;
+    color: var(--font-color-secondary);
+    padding: 0.4rem;
+    border: 1px solid var(--font-color-secondary);
+  }
+}
+
+/* SWIPER 2 */
+
+.swiper-two {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--bg-tertiary);
+  color: var(--font-color-primary);
+  padding: 2rem 0;
+} 
+
+.swiper-two h1 {
+  font-size: 1.8rem;
+  font-family: var(--font-primary);
+  font-weight: 100;
+}
+
+.swiper-two .swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-two .swiper-slide {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.swiper-two .swiper-slide img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid var(--bg-primary);
+  padding: 0.3rem;
+}
+
+.swiper-two .swiper-slide h1 {
+  font-size: 1.4rem;
+  font-family: var(--font-primary);
+  font-weight: 100;
+}
+
+.swiper-two .swiper-slide p {
+  font-size: 1rem;
+  font-family: var(--font-secondary);
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+}
+
+.swiper-two .swiper-slide a {
+  font-size: 0.9rem;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  text-decoration: none;
+  color: var(--font-color-primary);
+  padding: 0.6rem;
+  border: 1px solid var(--font-color-primary);
+}
+
+.swiper-two .swiper-slide a:hover {
+  transition: 400ms;
+  background-color: var(--bg-primary);
+  color: var(--font-color-secondary);
+}
+
+.swiper-pagination-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination-two .swiper-pagination-bullet {
+  background-color: var(--color-bullet-primary);
+}
+
+.swiper-pagination-two .swiper-pagination-bullet-active {
+  background-color: var(--font-color-primary);
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 730px) {
+  .swiper-two {
+    height: 40vh;
+  }
+  .swiper-two .swiper-slide img {
+    width: 100px;
+    height: 100px;
+  }
+  .swiper-two .swiper-slide h1 {
+    font-size: 1.2rem;
+  }
+  .swiper-two .swiper-slide p {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .swiper-two .swiper-slide a {
+    font-size: 0.8rem;
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    text-decoration: none;
+    color: var(--font-color-primary);
+    padding: 0.4rem;
+    border: 1px solid var(--font-color-primary);
+  }
+}

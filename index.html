@@ -4,8 +4,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renove-se</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/variables.css">
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/swiper.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#home"><img src="./Img/Img_navbar/Logo_renove_mobile.png" alt=""></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                    <li class="nav-link-social"><a href="https://www.instagram.com/reno.vese?igsh=bWFuZXg2ODl0NDd0" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #4b5b5b;"></i></a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./Img/Img_navbar/menu-de-tres-linhas.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="container__home" id="home">
+            <div class="container__home__box">
+                <div class="container__home__text">
+                    <h1>Renove-se</h1>
+                    <p>A melhor versão de você, realçando sua beleza com profissionalismo</p>
+
+                    <div class="container__home__button">
+                        <a href="#about">Conheça mais</a>
+                    </div>
+                </div>
+                <div class="container__home__img">
+                    <img src="./Img/Img_home.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="container__about" id="about">
+            <div class="container__about__text__apresentation">
+                <h1>Dedicação Total ao Seu Bem-Estar</h1>
+                
+                <p>Na Renove-se, acreditamos que cada pessoa merece um tratamento especial. Nossa equipe de especialistas está comprometida em oferecer serviços personalizados que atendam às suas necessidades e objetivos de beleza. Desde o primeiro contato, trabalhamos com dedicação para garantir que você se sinta acolhido(a) e confiante em cada etapa. Seja para tratamentos faciais ou corporais, estamos aqui para ajudar você a se sentir renovado(a) e valorizado(a), com resultados que realçam sua beleza natural.</p>
+            </div>
+
+            <div class="container__about__owner">
+                    <h1>A Expertise Por Trás da Renove-se</h1>
+                <div class="container__about__owner__box">
+                    <div class="container__about__owner__text">
+                        <h1>- Marli Antônia Rodrigues -</h1>
+                        <p>Com 38 anos e uma trajetória dedicada à estética, Marli é mãe e formada em Estética e Imagem Pessoal pela Unopar. Atuando na área há 9 anos, Marli vem transformando a vida de seus clientes por meio de tratamentos personalizados e focados na estética preventiva. Atualmente, cursando o 8º semestre de Farmácia, ela busca constantemente aprimorar seus conhecimentos para oferecer o que há de melhor em cuidados estéticos. Sua paixão pelo bem-estar vai além da aparência; ela acredita que a beleza deve ser cuidada com técnica, carinho e um olhar sempre atento às necessidades de cada pessoa.</p>
+
+                        <div class="container__about__owner__text__social">
+                            <a href="https://www.instagram.com/reno.vese?igsh=bWFuZXg2ODl0NDd0" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #4b5b5b;"></i></a>
+                            <a href="https://wa.me/554396296368" target="_blank"><i class="fa-brands fa-whatsapp fa-xl" style="color: #4b5b5b;"></i></a>
+                        </div>
+                    </div>
+                    <div class="container__about__owner__img">
+                        <img class="about__desktop" src="./Img/Img_about.jpg" alt="">
+                        <img class="about__mobile" src="./Img/Img_about_mobile.jpg" alt="">
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <section class="container__services" id="services">
+            <div class="container__services__text">
+                <h1>Nossos Serviços</h1>
+                <p>Tratamentos corporais e faciais personalizados para realçar sua beleza natural</p>
+            </div>
+
+            <div class="swiper">
+                <h1>Tratamentos faciais</h1>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_limpezaPele.jpeg" alt="">
+                    <h1>Limpeza de pele</h1>
+                    <p>o cuidado essencial para revelar uma pele radiante e saudável!</p>
+                    <a href="https://wa.me/554396296368" target="_blank">Agende seu horário</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_restruturacao.jpeg" alt="">
+                    <h1>Restruturação dérmica</h1>
+                    <p>revitalizando sua pele para um aspecto firme e rejuvenescido!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_dermaPen.jpeg" alt="">
+                    <h1>Derma Pen</h1>
+                    <p>um tratamento inovador que estimula a regeneração da pele, trazendo luminosidade e suavidade!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_peeling.jpeg" alt="">
+                    <h1>Peeling enzimático</h1>
+                    <p>uma esfoliação suave que renova a pele, revelando um brilho natural e uniforme!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_toxina.jpeg" alt="">
+                    <h1>Toxina Botulínica</h1>
+                    <p>suavizando linhas de expressão e proporcionando um olhar mais jovem e revitalizado!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_preenchimento.jpeg" alt="">
+                    <h1>Preenchimento</h1>
+                    <p>realçando contornos e restaurando volumes para um rosto harmonioso e rejuvenescido!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_bioestimuladores.jpeg" alt="">
+                    <h1>Bioestimuladores</h1>
+                    <p>estimulando a produção de colágeno para uma pele firme, rejuvenescida e cheia de vida!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_ultrassomFacial.jpeg" alt="">
+                    <h1>Ultrassom macro e microfocado facial</h1>
+                    <p>tecnologia que levanta e firma a pele, melhorando o contorno facial e promovendo um aspecto rejuvenescido!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_radio.jpeg" alt="">
+                    <h1>Radiofrequência facial</h1>
+                    <p>tratamento que estimula a produção de colágeno, promovendo firmeza e rejuvenescimento da pele!</p>
+                  </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+
+            <div class="swiper-two">
+                <h1>Tratamentos corporais</h1>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_clareamento.jpeg" alt="">
+                    <h1>Clareamento</h1>
+                    <p>um procedimento que uniformiza o tom da pele em áreas como axilas e virilhas, promovendo mais clareza e suavidade!</p>
+                    <a href="https://wa.me/554396296368" target="_blank">Agende seu horário</a>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_massagem.jpeg" alt="">
+                    <h1>Massagem relaxante</h1>
+                    <p>uma técnica que alivia o estresse e promove o bem-estar, proporcionando uma sensação de calma e rejuvenescimento!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_dml.jpeg" alt="">
+                    <h1>DLM (drenagem linfática manual)</h1>
+                    <p>uma massagem suave que estimula a circulação e reduz o inchaço, promovendo detoxificação e leveza!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_localizada.jpeg" alt="">
+                    <h1>Tratamento para redução da gordura localizada</h1>
+                    <p>técnicas que ajudam a eliminar acúmulos indesejados, modelando o contorno corporal e promovendo mais definição!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_enzima.jpeg" alt="">
+                    <h1>Enzima</h1>
+                    <p>um tratamento que utiliza substâncias naturais para dissolver gordura localizada, ajudando a esculpir o corpo e melhorar a silhueta!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_criolipolise.jpeg" alt="">
+                    <h1>Criolipólise</h1>
+                    <p>técnica que congela a gordura, ajudando na redução de medidas de forma não invasiva!</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./Img/Img_services/Img_ultrassom.jpeg" alt="">
+                    <h1>Ultrassom macrofocado corporal</h1>
+                    <p>tratamento que penetra em camadas profundas da pele, promovendo a redução de gordura e o fortalecimento da silhueta!</p>
+                  </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination-two"></div>
+              </div>
+        </section>
+        <section class="container__contact" id="contact">
+            <div class="container__contact__maps">
+                <div class="container__contact__maps__text">
+                    <h1>Entre em Contato com a Renove-se</h1>
+                    <p>Estamos prontos para atender você! Agende seu atendimento ou tire suas dúvidas de forma rápida e fácil pelos nossos canais de comunicação. Siga-nos no Instagram para ficar por dentro das novidades e promoções exclusivas, ou fale diretamente conosco pelo WhatsApp.</p>
+
+                    <div class="container__contact__maps__text__social">
+                        <a href="https://www.instagram.com/reno.vese?igsh=bWFuZXg2ODl0NDd0" target="_blank">
+                            Instagram
+                        </a>
+                        <a href="https://wa.me/554396296368" target="_blank">
+                            WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="container__contact__maps__location">
+                    <h1>Localização</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d915.4725189265639!2d-51.44078867126439!3d-23.3921935981367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eca407c4b04391%3A0x645b79aba1d15d9d!2sR.%20Aracu%C3%A3%20do%20Pantanal%2C%2019%20-%20Jardim%20Primavera%2C%20Arapongas%20-%20PR%2C%2086703-735!5e0!3m2!1spt-BR!2sbr!4v1727893896492!5m2!1spt-BR!2sbr" width="600" height="450" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Estamos localizados na Rua Aracuã do Pantanal, 19 - Jardim Primavera, Arapongas/PR  – veja como chegar utilizando o mapa a cima. Estamos aqui para cuidar de você e garantir a melhor experiência em estética!</p>
+                </div>
+            </div> 
+        </section>
+
+    </main>
+    <footer> 
+        <div class="container__footer">
+
+            <img src="./Img/Logo_renove_preta.png" alt="">
+
+            <div class="container__footer__text">
+                <a href="#home">inicio</a>
+                <a href="#about">sobre</a>
+                <a href="#services">serviços</a>
+                <a href="#contact">contato</a>
+            </div>
+
+            <div class="container__footer__social">
+                <a href="https://www.instagram.com/reno.vese?igsh=bWFuZXg2ODl0NDd0" target="_blank">
+                    <i class="fa-brands fa-instagram fa-xl" style="color: #4b5b5b;"></i>
+                </a>
+                <a href="https://wa.me/554396296368" target="_blank">
+                    <i class="fa-brands fa-whatsapp fa-xl" style="color: #4b5b5b;"></i>
+                </a>
+            </div>
+        </div>
+        <div class="container__footer__copy">
+            <p>© 2024 Renove-se. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./JS/navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./JS/swiper.js"></script>
 </body>
 </html>
